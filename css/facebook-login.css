@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+/* ========================= */
+/*    Common Styling Start   */
+/* ========================= */
+.contain{
+    width: 72%;
+    margin: auto;
+    overflow: hidden;
+}
+.w-50{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    
+}
+/* ========================= */
+/*    Common Styling End     */
+/* ========================= */
+
+
+/* ========================= */
+/*      Main Area Start      */
+/* ========================= */
+
+.main-area{
+    /* background: rgb(229, 228, 228); */
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.main-area .facebook-image img{
+    margin-top: 16px;
+    width: 255px;
+    height: 52px;
+}
+.main-area .facebook-help{
+    margin-top: -15px;
+}
+.main-area .facebook-help h3{
+    margin-left: 24px;
+    font-size: 24px;
+    color: #1c1e3b!important;
+    font-weight: normal;
+
+}
+.main-area .login-form{
+    background-color: #f3f3f3;
+    width: 80%;
+    margin: auto;
+    padding: 15px 10px;
+    border-radius: 7px;text-align: center;
+  
+
+}
+.login-form input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+.login-form input[type="text"],
+.login-form input[type="password"]{
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border:1px solid #c4c6d0;
+}
+.login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus
+{
+    border: 1px solid #1877f2;
+}
+::placeholder{
+    color: #c4c6d0;
+}
+.login-form input[type="submit"]{
+   background-color: blue;
+   color:white;
+   padding: 10px 0;
+   border: none;
+   border-radius: 5px;
+   font-weight: bold;margin-bottom: 18px;
+}
+.login-form .forgot-link{
+   color: blue;
+   font-size: 17px;
+   text-decoration: none;
+}
+.login-form .forgot-link:hover{
+    text-decoration: underline;
+}
+.login-form hr{
+    border: 1px 0 0 0 solid black;
+    margin: 12px 0;
+}
+.login-form .new-account-link{
+    background-color: green;
+    color: white;
+    padding: 10px 25px;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.create-page p{
+    text-align: center;
+    margin-top: 18px;
+    font-size: 14px;
+}
+.create-page p a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* ========================= */
+/*       Main Area End       */
+/* ========================= */
+
+/* ========================= */
+/*      Footer Area Start    */
+/* ========================= */
+    .footer-area {
+        background-color: #f3f3f3;
+        padding: 30px 0;
+    }
+ 
+    .footer-area .languages ul{
+        list-style-type: none;
+        overflow: hidden;
+    }
+    .footer-area .languages ul li{
+        float: left;
+        margin-right: 10px;
+    }
+    .footer-area .languages ul li a{
+        color: #1c1e3b;
+        text-decoration: none;
+    }
+    .footer-area .languages .plas{
+        background: white;
+        padding: 0 5px;
+        font-weight: bold;
+        border-radius: 2px;
+    }
+    .languages-bottom{
+        margin: 8px 0;
+    }
+    custom-links{
+        overflow: hidden;
+    }
+    .custom-links li{
+        float: left;
+    }
+    .custom-links li{
+        float: left;
+        list-style-type: none;
+        margin-right: 15px;
+        padding-top: 5px;
+    }
+    .custom-links li a{
+        text-decoration: none;
+        color: #1c1e3b;
+    }
+
+/* ========================= */
+/*      Footer Area End      */
+/* ========================= */
