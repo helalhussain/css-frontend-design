@@ -6,20 +6,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/images.png">
     <title>Facebook Login</title>
+    <link rel="stylesheet" href="css/facebook-login-old.css">
 </head>
 <body>
     <header class="header-area">
-        <div class="main-area">
-            <div class="container">
-                <div class="w-20">
-                    <div class="logo-area">
-                        <img src="images/facebook.png" alt="">
-                    </div>
+        <div class="container">
+            <div class="w-20">
+                <div class="logo-area">
+                    <h1>Facebook</h1>
                 </div>
-                <div class="w-80"></div>
+            </div>
+            <div class="w-80">
+                <div class="login-area">
+                    <form class="login-form" action="" method="get">
+                        <div class="w-44 spacing">
+                            <div class="email-area">
+                                <label for="email-or-phone">Email or Phone</label>
+                                <input type="text" name="email-or-phone" id="email-or-phone" placeholder="">
+                            </div>
+                        </div>
+                        <div class="w-44 spacing">
+                            <div class="password-area">
+                                <label for="password">Password</label>
+                                <input type="text" name="password" id="password">
+                                <a class="forgot" href="#">Forgotted account</a>
+                            </div>
+                        </div>
+                        <div class="w-12">
+                            <div class="login-btn">
+                                <input type="submit" class="login" value="Log in">
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </header>
+    <div class="main-area">
+        <div class="container">
+            <div class="w-50">
+                <div class="facebook-help">
+                    <h3>Facebook helps you contact and share
+                        with the <br> people in your life.</h3>
+              </div>
+                <div class="connect-people">
+                    <img src="images/fb-connect-people.PNG" alt="Connect people">
+              
+                </div>
+            </div>
+            <div class="w-50">
+                <div class="acc-heading">
+                    <h1>Create an account</h1>
+                    <h3>It's free and allways will be</h3>
+                </div>
+                <div class="reg-form">
+                    <form action="" method="get">
+                        <div class="name">
+                            <input type="text" name="first-tname" id="farst-name" placeholder="First Name">
+                            <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+                         
+                        </div>
+                        <input type="email" name="email" id="email" placeholder="Email">
+                        <input type="email" name="email" id="email" placeholder="Reset email">
+                        <input type="password" name="password" id="password" placeholder="Password">
+                        <div class="birthday-text">
+                            Birthday 
+                        </div>
+                        <div class="birthday-select">
+                            <div class="dob-element">
+                                <select name="dob-day" id="birthday">
+                                    <option value="">Select</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                                <select name="dob-month" id="">
+                                    <option value="">Select</option>
+                                    <option value="Jan">Jan</option>
+                                    <option value="Fab">Fab</option>
+                                </select>
+                                <select name="dob-year" id="">
+                                    <option value="">Select</option>
+                                    <option value="1995">1995</option>
+                                    <option value="1996">1996</option>
+                                </select>
+                            </div>
+                            <div class="dob-link">
+                                <a href="#">
+                                    Why do i need to provide my <br> date of birth?
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gender-section">
+                            <input type="radio" name="gander" id="male" value="Male">
+                            <label for="male">Male</label>
+                            <input type="radio" name="gander" id="female" value="Female">
+                            <label for="female">Female</label>
+                        </div>
+                        <p>By clicking Create an account you agree to our <a href="#">terms</a></p>
+                     <input type="submit" class="create" value="Create an account">
+                    </form>
+                </div>
+                <div class="create-page">
+                    <p>Create a page for a celebrity, hand or business</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer class="footer-area"></footer>
 </body>
 </html>
