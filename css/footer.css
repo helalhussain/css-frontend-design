@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+/*=========================*/
+/*  Common stayling Start  */
+/*=========================*/
+footer{
+    background: rgb(39, 39, 39);
+    padding: 40px 0;
+}
+    footer .container{
+        width: 80%;
+        margin: auto;
+    }
+    footer .container .row{
+        overflow: hidden;
+    }
+    footer .container .row .w-25{
+        width: 25%;
+        float: left;
+    }
+ 
+    footer .container h2{
+        color: white;
+        margin-bottom: 0;
+    }
+
+    footer .container ul{
+        padding-inline-start: 0px;
+        padding-top: 5px;
+        /* margin-block-start: 0;
+        margin-block-end: 0; */
+    }
+    
+    footer .container ul li{
+        list-style-type: none;
+        margin-top: 15px;
+    }
+    footer .container ul li a{
+        color: rgb(174, 174, 174);
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+        transition: all 0.5s case;
+    }
+    footer .container ul li a:hover{
+        color: white;
+    }
+/*========================*/
+/*  Common stayling End   */
+/*========================*/
+.w-25 .social-icon{
+    overflow: hidden;
+}
+.w-25 .social-icon li{
+    float: left; 
+    
+}
+.w-25 .social-icon li a{
+    display: inline-block;
+    background: rgb(174, 174, 174);
+    color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    /* margin:0 10px 0 0; */
+    margin-right: 10px;
+    transition: 0.6s;
+    
+    
+}
+.w-25 .social-icon li a i{
+    font-size: 18px;
+    font-weight: bold;
+}
+.w-25 .social-icon li a:hover{
+    background: black;
+}
