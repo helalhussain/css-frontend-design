@@ -1,0 +1,81 @@
+body{
+    background: #aeef34;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+.card-container{
+    padding: 50px 0 0;
+    overflow: hidden;
+}
+
+.w-33{
+    width: 33.33%;
+    float: left;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.w-33 .card{
+    background: #fff;
+    position: relative;
+    transition: 0.8s;
+    margin: 0 25px;
+    border-radius: 6px;
+    top: 10px;
+    /* height: 370px; */
+    height: 150px;
+    box-shadow: -4px -4px 14px -1px rgb(175, 174, 174);}
+.w-33 .card .card-img{
+    width: 55%;
+    position: relative;
+    left: 20%;
+    top:-27px;
+    height: 130px;
+}
+.card-img img{
+    width: 100%;
+    height: auto;
+    border:3px solid white;
+    box-shadow: -4px -4px 14px -1px rgb(120, 83, 83);
+
+
+}
+.card-description{
+    text-align: center;
+    padding: 10px 20px 0px 20px;
+    position: relative;
+    top: -40px;
+    visibility: hidden;
+    opacity: 0;
+    transition-delay: 0.5s;
+}
+.card-description h2{
+    margin: 20px 0 0 0;
+    font-weight: bold;
+}
+.card-description p{
+    font-size: 18px;
+    
+
+    margin-block-start: 10px;
+    margin-block-end: 0;
+}
+.card-description a{
+    margin-top: 20px;
+    color: white;
+    background: #0d7a92;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.card:hover{
+    height: 370px;
+    top: 0;
+}
+.card:hover .card-description{
+    visibility: visible;
+    orphans: 1;
+}
