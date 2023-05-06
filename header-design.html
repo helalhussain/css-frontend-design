@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Design</title>
+    
+</head>
+<style>
+    body{
+        margin: 0;padding: 0;box-sizing: border-box;
+    }
+    header{
+        height: 100px;
+        border-bottom: 1px solid green;
+    }
+    .container{
+        width: 85%;
+        margin: auto;
+    }
+    header .w-25{
+        float: left;
+    }
+    header .w-75{
+        overflow: hidden;
+    }
+ header .w-25 h1{
+    color: green;
+    font-weight: bold;
+    
+
+ }
+ header .w-75 ul{
+    margin: 0;
+    padding: 0;
+ }
+ header .w-75 .header-menu{
+    width: 45%;
+    float: right;
+    overflow: hidden;
+ }
+ header .w-75 ul li{
+    float: left;
+    list-style-type: none;
+   
+    line-height: 100px;
+ }
+ header .w-75 ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+ }
+</style>
+<body>
+    <header>
+       <div class="container">
+        <div class="w-25">
+            <div class="header-title">
+               <h1> Deepgreen</h1>
+            </div>
+        </div>
+        <div class="w-75">
+           <div class="header-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Address</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+           </div>
+        </div>
+       </div>
+    </header>
+</body>
+</html>
